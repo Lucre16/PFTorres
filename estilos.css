@@ -176,7 +176,7 @@ footer i {
 }
 
 .card-a:hover {
-  transition: all 1s;
+  transition: all 1.5s;
   font-family: "Dancing Script", cursive;
   height: 80px;
   width: 200px;
