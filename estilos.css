@@ -118,6 +118,12 @@ footer i {
   height: 100px;
   width: 100%;
   height: auto;
+  transform: rotatey(0deg);
+  transition: all 5s;
+}
+
+.img-responsive:hover {
+  transform: rotatey(360deg);
 }
 
 .presentacion {
