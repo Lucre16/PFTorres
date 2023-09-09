@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Great+Vibes&family=Hind:wght@300;400&family=Playfair+Display&family=Roboto:wght@100&family=Satisfy&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,13 +24,14 @@ body {
 }
 
 span {
-  font-size: 23px;
+  font-size: 40px;
   font-style: italic;
+  font-family: "Dancing Script", cursive;
 }
 
 .navbar-brand img {
-  height: 60px;
-  border-radius: 30px;
+  height: 70px;
+  border-radius: 50px;
 }
 
 .nav-link {
@@ -50,12 +52,15 @@ main {
 }
 
 .home {
-  border: 5px solid #A61C41;
+  border: 5px solid #302f2f;
+  font-family: "Hind", sans-serif;
 }
 
 h1 {
-  font-style: italic;
+  font-family: "Hind", sans-serif;
+  font-size: 70px;
   text-shadow: 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41;
+  margin-top: 10px;
 }
 
 footer {
@@ -100,6 +105,8 @@ footer i {
 /* Gaston */
 .soy {
   color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
   text-align: center;
   padding: 10px;
   margin: 10px;
@@ -114,6 +121,7 @@ footer i {
 }
 
 .presentacion {
+  font-family: "Hind", sans-serif;
   text-align: center;
   color: #fff;
   padding: 35px;
@@ -121,6 +129,8 @@ footer i {
 
 /* productos */
 .productos {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
   color: #fff;
   text-align: center;
   padding: 15px;
@@ -161,6 +171,8 @@ footer i {
 
 /* Eventos */
 .eventos {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
   color: #fff;
   text-align: center;
   margin-top: 15px;
@@ -187,10 +199,8 @@ form {
 .contacto {
   text-align: center;
   font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Dancing Script", cursive;
   text-transform: uppercase;
-  -webkit-text-decoration: underline #A61C41;
-          text-decoration: underline #A61C41;
 }
 
 form input {

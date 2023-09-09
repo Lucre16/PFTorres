@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Great+Vibes&family=Hind:wght@300;400&family=Playfair+Display&family=Roboto:wght@100&family=Satisfy&display=swap');
 
+// font-family: 'Dancing Script', cursive;
+// font-family: 'Great Vibes', cursive;
+// font-family: 'Hind', sans-serif;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Satisfy', cursive;
 
 $color1: #302f2f;
 $colorbg: #A61C41;
 $colortxt: #fff;
+$fontlogo: 'Dancing Script', cursive;
+$font1: 'Hind', sans-serif;
 
 *{
     margin: 0;
@@ -29,13 +38,14 @@ body{
 }
 
 span{
-    font-size: 23px;
+    font-size: 40px;
     font-style: italic;
+    font-family: $fontlogo;
 }
 
 .navbar-brand img{
-    height: 60px;
-    border-radius: 30px;
+    height: 70px;
+    border-radius: 50px;
 }
 
 .nav-link{
@@ -56,12 +66,15 @@ main{
 }
 
 .home{
-    border: 5px solid $colorbg ;
+    border: 5px solid $color1 ;
+    font-family: $font1;
 }
 
 h1{
-    font-style: italic;
+    font-family: $font1;
+    font-size: 70px;
     text-shadow: 0 0 5px $colorbg, 0 0 5px $colorbg, 0 0 5px $colorbg, 0 0 5px $colorbg, 0 0 5px $colorbg;
+    margin-top: 10px;
 }
 
 footer{
@@ -110,6 +123,8 @@ footer{
 
 .soy{
     color: $colortxt;
+    font-family: $fontlogo;
+    font-size: 45px;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -124,6 +139,7 @@ footer{
 }
 
 .presentacion{
+    font-family: $font1;
     text-align: center;
     color: $colortxt;
     padding: 35px;
@@ -131,6 +147,8 @@ footer{
 
 /* productos */
 .productos{
+    font-family: $fontlogo;
+    font-size: 100px;
     color: $colortxt;
     text-align: center;
     padding: 15px;
@@ -172,6 +190,8 @@ footer{
 
 
 .eventos{
+    font-family: $fontlogo;
+    font-size: 50px;
     color: $colortxt;
     text-align: center;
     margin-top: 15px;
@@ -200,9 +220,8 @@ form{
 .contacto{
     text-align: center;
     font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fontlogo;
     text-transform: uppercase;
-    text-decoration: underline $colorbg;
 }
 
 form input{
