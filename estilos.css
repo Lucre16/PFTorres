@@ -175,6 +175,16 @@ footer i {
   text-transform: uppercase;
 }
 
+.card-a:hover {
+  transition: all 1s;
+  font-family: "Dancing Script", cursive;
+  height: 80px;
+  width: 200px;
+  font-size: 30px;
+  color: #0D0D0D;
+  background-color: #BF1F5A;
+}
+
 /* Eventos */
 .eventos {
   font-family: "Dancing Script", cursive;

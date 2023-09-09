@@ -193,6 +193,16 @@ footer{
     text-transform:uppercase;
 }
 
+.card-a:hover{
+    transition: all 1s;
+    font-family: $fontlogo;
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+    color: #0D0D0D;
+    background-color: #BF1F5A;
+}
+
 /* Eventos */
 
 
