@@ -103,6 +103,10 @@ footer i {
 }
 
 /* Gaston */
+.navbar {
+  z-index: 1;
+}
+
 .soy {
   color: #fff;
   font-family: "Dancing Script", cursive;

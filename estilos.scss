@@ -122,6 +122,10 @@ footer{
 
 /* Gaston */
 
+.navbar{
+    z-index: 1;
+}
+
 .soy{
     color: $colortxt;
     font-family: $fontlogo;
