@@ -272,3 +272,31 @@ form #enviar{
     padding: 10px;
 }
 
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    body {
+    font-size: 16px;
+    }
+    h1 {
+    font-size: 30px;
+    }
+    h2 {
+    font-size: 30px !important;
+    }
+    .navbar-brand img{
+        height: 50px;
+        margin-bottom: 30px;
+    } 
+    form #enviar{
+        font-size: 15px;
+    }
+    form textarea{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar-brand img{
+        height: 50px;
+        margin-bottom: 30px;
+    } 
+}
