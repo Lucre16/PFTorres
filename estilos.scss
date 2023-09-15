@@ -71,7 +71,7 @@ main{
 }
 
 h1{
-    font-family: $font1;
+    font-family: $fontlogo;
     font-size: 70px;
     text-shadow: 0 0 5px $colorbg, 0 0 5px $colorbg, 0 0 5px $colorbg, 0 0 5px $colorbg, 0 0 5px $colorbg;
     margin-top: 10px;
@@ -135,6 +135,14 @@ footer{
     margin: 10px;
     background-color: #212529;
     border: 2px solid $color1;
+}
+
+.mision{
+    text-align: center;
+    font-family: $fontlogo;
+    font-size: 27px;
+    color: $colortxt;
+    text-shadow: 0 0 5px $colorbg, 0 0 5px $colorbg, 0 0 5px $colorbg,0 0 5px $colorbg;
 }
 
 .img-responsive{

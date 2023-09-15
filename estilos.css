@@ -57,7 +57,7 @@ main {
 }
 
 h1 {
-  font-family: "Hind", sans-serif;
+  font-family: "Dancing Script", cursive;
   font-size: 70px;
   text-shadow: 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41;
   margin-top: 10px;
@@ -116,6 +116,14 @@ footer i {
   margin: 10px;
   background-color: #212529;
   border: 2px solid #302f2f;
+}
+
+.mision {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 27px;
+  color: #fff;
+  text-shadow: 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41, 0 0 5px #A61C41;
 }
 
 .img-responsive {
